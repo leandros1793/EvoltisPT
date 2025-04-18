@@ -1,1 +1,17 @@
-<h1>Hola, tu puedes! Te damos una mano con este repo para esta prueba técnica</h1>
+<!-- src/app/app.component.html -->
+
+<div class="container">
+    <header class="header">
+      <div class="logo">
+        <h1>{{ title }}</h1>
+      </div>
+    </header>
+    
+    <main class="main-content">
+      <router-outlet></router-outlet>
+    </main>
+    
+    <footer class="footer">
+      <p>&copy; {{ currentYear }} - Evoltis Prueba Tecnica</p>
+    </footer>
+  </div>

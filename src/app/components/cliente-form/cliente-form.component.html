@@ -1,0 +1,63 @@
+<!-- src/app/components/cliente-form/cliente-form.component.html -->
+<div class="card">
+  <h5>{{ isEditing ? 'Editar' : 'Crear' }} Cliente</h5>
+  
+  <form [formGroup]="clienteForm" (ngSubmit)="onSubmit()">
+    <div class="grid">
+      <div class="field col-12 md:col-6">
+        <label for="nombre">Nombre</label>
+        <input id="nombre" type="text" pInputText formControlName="nombre" 
+               [ngClass]="{'ng-invalid ng-dirty': submitted && f['nombre'].errors}" />
+        <small class="p-error" *ngIf="submitted && f['nombre'].errors?.['required']">Nombre es requerido.</small>
+        <small class="p-error" *ngIf="submitted && f['nombre'].errors?.['maxlength']">Nombre no puede exceder 100 caracteres.</small>
+      </div>
+      
+      <div class="field col-12 md:col-6">
+        <label for="apellido">Apellido</label>
+        <input id="apellido" type="text" pInputText formControlName="apellido" 
+               [ngClass]="{'ng-invalid ng-dirty': submitted && f['apellido'].errors}" />
+        <small class="p-error" *ngIf="submitted && f['apellido'].errors?.['required']">Apellido es requerido.</small>
+        <small class="p-error" *ngIf="submitted && f['apellido'].errors?.['maxlength']">Apellido no puede exceder 100 caracteres.</small>
+      </div>
+      
+      <div class="field col-12 md:col-6">
+        <label for="email">Email</label>
+        <input id="email" type="email" pInputText formControlName="email" 
+               [ngClass]="{'ng-invalid ng-dirty': submitted && f['email'].errors}" />
+        <small class="p-error" *ngIf="submitted && f['email'].errors?.['required']">Email es requerido.</small>
+        <small class="p-error" *ngIf="submitted && f['email'].errors?.['email']">Email debe tener un formato válido.</small>
+        <small class="p-error" *ngIf="submitted && f['email'].errors?.['maxlength']">Email no puede exceder 150 caracteres.</small>
+      </div>
+      
+      <div class="field col-12 md:col-6">
+        <label for="telefono">Teléfono</label>
+        <input id="telefono" type="text" pInputText formControlName="telefono" 
+               [ngClass]="{'ng-invalid ng-dirty': submitted && f['telefono'].errors}" />
+        <small class="p-error" *ngIf="submitted && f['telefono'].errors?.['required']">Teléfono es requerido.</small>
+        <small class="p-error" *ngIf="submitted && f['telefono'].errors?.['maxlength']">Teléfono no puede exceder 20 caracteres.</small>
+      </div>
+      
+      <div class="field col-12">
+        <label for="direccion">Dirección</label>
+        <textarea id="direccion" rows="3" pInputTextarea formControlName="direccion" 
+                 [ngClass]="{'ng-invalid ng-dirty': submitted && f['direccion'].errors}"></textarea>
+        <small class="p-error" *ngIf="submitted && f['direccion'].errors?.['required']">Dirección es requerida.</small>
+        <small class="p-error" *ngIf="submitted && f['direccion'].errors?.['maxlength']">Dirección no puede exceder 200 caracteres.</small>
+      </div>
+      
+      <div class="field col-12">
+        <div class="field-checkbox">
+          <p-checkbox formControlName="activo" [binary]="true" inputId="activo"></p-checkbox>
+          <label for="activo">Activo</label>
+        </div>
+      </div>
+      
+      <div class="field col-12">
+        <button pButton pRipple label="Guardar" icon="pi pi-check" type="submit" [loading]="(loading$ | async) || false"></button>
+        <button pButton pRipple label="Cancelar" icon="pi pi-times" class="p-button-secondary ml-2" type="button" (click)="cancel()"></button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<p-toast></p-toast>
