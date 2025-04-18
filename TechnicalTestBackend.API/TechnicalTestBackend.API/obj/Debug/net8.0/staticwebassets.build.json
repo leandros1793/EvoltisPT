@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Uej1hp2I18GVV1GuqkKozeOebIsHqmvX0cmhXezsdt0=",
+  "Source": "TechnicalTestBackend.API",
+  "BasePath": "_content/TechnicalTestBackend.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
