@@ -2804,11 +2804,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leand\\OneDrive\\Escritorio\\Prueba tecnica\\TechnicalTestBackend.API\\TechnicalTestBackend.API\\TechnicalTestBackend.API.csproj",
+      "projectUniqueName": "C:\\Users\\leand\\OneDrive\\Escritorio\\Prueba tecnica\\technical-tests-frontend-ssr\\TechnicalTestBackend.API\\TechnicalTestBackend.API\\TechnicalTestBackend.API.csproj",
       "projectName": "TechnicalTestBackend.API",
-      "projectPath": "C:\\Users\\leand\\OneDrive\\Escritorio\\Prueba tecnica\\TechnicalTestBackend.API\\TechnicalTestBackend.API\\TechnicalTestBackend.API.csproj",
+      "projectPath": "C:\\Users\\leand\\OneDrive\\Escritorio\\Prueba tecnica\\technical-tests-frontend-ssr\\TechnicalTestBackend.API\\TechnicalTestBackend.API\\TechnicalTestBackend.API.csproj",
       "packagesPath": "C:\\Users\\leand\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\leand\\OneDrive\\Escritorio\\Prueba tecnica\\TechnicalTestBackend.API\\TechnicalTestBackend.API\\obj\\",
+      "outputPath": "C:\\Users\\leand\\OneDrive\\Escritorio\\Prueba tecnica\\technical-tests-frontend-ssr\\TechnicalTestBackend.API\\TechnicalTestBackend.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

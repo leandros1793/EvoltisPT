@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\TechnicalTestBackend.API",
+    "\\TechnicalTestBackend.API\\Controllers",
+    "\\TechnicalTestBackend.API\\Data",
+    "\\TechnicalTestBackend.API\\DTOs",
+    "\\TechnicalTestBackend.API\\Entities",
+    "\\TechnicalTestBackend.API\\Entities\\Cliente.cs",
+    "\\TechnicalTestBackend.API\\Mappings",
+    "\\TechnicalTestBackend.API\\Repositories",
+    "\\TechnicalTestBackend.API\\Services"
+  ],
+  "SelectedNode": "\\TechnicalTestBackend.API\\Services\\IClienteService.cs",
+  "PreviewInSolutionExplorer": false
+}

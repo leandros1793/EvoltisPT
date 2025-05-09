@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zF0i9Z5xKaA=",
+  "dgSpecHash": "/akWZJ0pqeI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\leand\\OneDrive\\Escritorio\\Prueba tecnica\\TechnicalTestBackend.API\\TechnicalTestBackend.API\\TechnicalTestBackend.API.csproj",
+  "projectFilePath": "C:\\Users\\leand\\OneDrive\\Escritorio\\Prueba tecnica\\technical-tests-frontend-ssr\\TechnicalTestBackend.API\\TechnicalTestBackend.API\\TechnicalTestBackend.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\leand\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\leand\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
